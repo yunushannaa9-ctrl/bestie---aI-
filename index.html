@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bestie AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="avatar">♡</div>
+      <div>
+        <h1>Bestie AI</h1>
+        <p>your always-there bestie ✨</p>
+      </div>
+      <span class="online">● online</span>
+    </header>
+
+    <section id="chat" class="chat" aria-live="polite">
+      <div class="msg bot">Hey bestie 🥹💗 I’m here. Tell me what’s on your mind.</div>
+    </section>
+
+    <div class="quick">
+      <button onclick="quickSend('I need motivation')">Motivate me 🔥</button>
+      <button onclick="quickSend('I had a bad day')">Bad day ☹️</button>
+      <button onclick="quickSend('I need study help')">Study help 📚</button>
+    </div>
+
+    <form id="form">
+      <input id="input" autocomplete="off" placeholder="Talk to your bestie..." />
+      <button type="submit">➤</button>
+    </form>
+    <small>Bestie AI is a demo. It is not a substitute for professional help.</small>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
